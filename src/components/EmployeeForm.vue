@@ -11,7 +11,7 @@
         @focus="clearStatus"
         @keypress="clearStatus"
       >
-      <label>Employee Email</label>
+      <label>Employee Email Address</label>
       <input
         type="text"
         :class="{ 'has-error': submitting && invalidEmail }"
